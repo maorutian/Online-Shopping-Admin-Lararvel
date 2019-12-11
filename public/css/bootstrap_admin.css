@@ -1,0 +1,27 @@
+body{
+  padding-bottom: 50px;
+}
+
+.table .nav-pills>li>a {
+  border-radius: 4px;
+  padding: 0px 15px;
+}
+
+footer{
+  font-weight: 400;
+  text-align: center;
+  padding:20px ;
+}
+
+#delete_info {
+  padding-top: 20px;
+  line-height: 4;
+}
+
+.error{
+    color: red;
+}
+
+.dataTables_length{
+    padding-top: 10px;
+}
