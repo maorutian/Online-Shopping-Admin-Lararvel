@@ -16,6 +16,10 @@ PHP Laravel + Bootstrap + Datatable + Mysql
 	- View individual employee information
 	- Review, add, modify and delete employee details
 	
+## Route Structure
+![Route Structure.png](readme_media/routesturcture.png)
+
+
 ## Files Structure
 Here is a brief explanation of the folder structure (only show changed file in laravel):
 
