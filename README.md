@@ -64,7 +64,7 @@ Here is a brief explanation of the folder structure (only show changed file in l
 
 ```
 composer update
-php 
+php artisan serve
 ```
 
 ## Pros of Laravel
