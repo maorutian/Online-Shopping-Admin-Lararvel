@@ -16,48 +16,52 @@ PHP Laravel + Bootstrap + Datatable + Mysql
 	- View individual employee information
 	- Review, add, modify and delete employee details
 	
-## Files/Folders Structure
+## Files Structure
 Here is a brief explanation of the folder structure (only show changed file in laravel):
 
 ```
-└── app                                 # Contains all template source files.
-│   └── Http                            # Contains Classes and Libraries that should not be acc
-│   │   └── Controllers                 # .
-│   │   │   └── AdminController         # Employee Class.
-│   │   └── Middleware                     # .
-│   │       └── Authenticate.php                 # Employee Class.
-│   │       └── RedirectIfAuthenticated.php      # Employee Class.
+└── app                                
+│   └── Http                            
+│   │   └── Controllers                 
+│   │   │   └── AdminController         
+│   │   └── Middleware                     
+│   │       └── Authenticate.php                 
+│   │       └── RedirectIfAuthenticated.php      
 │   │   
-│   └── Category.php          # Functions related to database.
-│   └── Employee.php          # Database credentials.
-│   └── Product.php           # Libray of functions.
+│   └── Category.php          
+│   └── Employee.php
+│   └── Product.php
 │   
-└── config                    # Contains all template source files.
-│   └── auth.php              # Contains Classes and Libraries that should not be acc
+└── config
+│   └── auth.php
 │   
-└── database                  # Contains all template source files.
-│   └── migration             # Contains
-│   └── seeds                 # .
+└── database
+│   └── migration
+│   └── seeds
 |   
-└── public                    # Contains all template source files.
-│   └── css                   # Contains
-│   └── js                    # .
+└── public                    
+│   └── css
+│   └── js
 |   
-└── resources                 # Contains all template source files.# Contains
-│   └── views                 # .
-│      └── admin              # Contains all JavaScript files# Custom own chart using Chart.js.
-│      └── layout             # Contains all employees pages.
+└── resources
+│   └── views                 
+│      └── admin
+│      └── layout             
 |
-└── routes                    # Contains all template source files.# Contains
-│   └── web.php               # .
+└── routes
+│   └── web.php               
 │
-└──.env                       # Resources for readme.md.
+└──.env
 |
-└── readme_media              # Resources for readme.md.
+└── readme_media
 ```
 
-##Build
-composer
+## Build
+
+```
+composer update
+php 
+```
 
 ## Pros of Laravel
 1. Access Databases Efficiently     
